@@ -1,0 +1,43 @@
+body {
+    font-family: 'Bitter', serif;
+    height: 950px;
+    background-image: url("./snow.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: snow;
+}
+
+.weatherData {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(200, 200, 200, 0.4);
+    margin: auto auto;
+}
+
+.country {
+    padding-top: 10px;
+}
+
+.country, .city {
+    font-size: 24px;
+    font-weight: bold;
+} 
+
+.temperature, .description {
+    font-size: 36px;
+    font-weight: bold;
+    color: indigo;
+}
+
+.toggleTemperature {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.getWeather {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 30px;
+}
